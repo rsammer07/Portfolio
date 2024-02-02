@@ -1,27 +1,35 @@
 import { NavLink, Link, Route, Routes, Navigate } from 'react-router-dom';
 import './App.css';
+import Projects from './Projects';
+import Skills from './Skills';
+import Intro from './Intro';
+import Contact from './Contact';
 
 function App() {
-  let routes = [
-    
-  ]
+  let routes = (
+    <Routes>
+    <Route path='/' element={< Intro />}/>
+    <Route path="/projects" element={<Projects />}/>
+    <Route path="/skills" element={<Skills />}/>
+    <Route path="/contact" element={<Contact />}/>
+    </Routes>
+  )
+
+
+
   return (
     <div className="App">
       <header>
-        <img className='logo' src={require('./Images/logo.jpg')} alt="logo"/>
+        <Link to="/"><img className='logo' src={require('./Images/logo.jpg')} alt="logo"/></Link>
         <nav className="navbar">
-
+        <NavLink activeclassname="active" to="/projects"><h3 className="text-link">Projects</h3></NavLink>
+        <NavLink activeclassname="active" to="/skills"><h3 className="text-link">Skills</h3></NavLink>
+        <NavLink activeclassname="active" to="/contact"><h3 className="text-link">Contact</h3></NavLink>
         </nav>
       </header>
-      <body>
-        <div className='introduction'>
-          <div className='title'>
-          <h1>Ryan Sammer</h1>
-          <h1>Full Stack Developer</h1>
-          </div>
-          <img className='portrait' src={require('./Images/headshot.jpg')} alt="portrait"/>
-        </div>
-      </body>
+      <main>
+        {routes}
+      </main>
       <footer>
       <p>© 2024 Ryan Sammer</p>
       </footer>

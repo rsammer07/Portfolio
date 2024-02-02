@@ -1,0 +1,17 @@
+.site-logo {
+    height: 100px;
+    width: 100px;
+    margin: 10px;
+}
+
+.contact {
+    display: inline-flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: rgb(53, 53, 53);
+}
+
+.contact-link {
+    flex: 0 0 calc(25% - 10px);
+    margin: 5px;
+}

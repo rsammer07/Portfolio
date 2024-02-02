@@ -1,0 +1,28 @@
+div {
+    text-align: center;
+    color: white;
+}
+
+.projects-display {
+    display: inline-flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 50px;
+}
+
+.project-card {
+    flex: 0 0 calc(50% - 10px);
+    margin: 5px;
+}
+
+.project-screenshot {
+    height: 250px;
+    width: 250px;
+}
+
+.project-links {
+    display: flex;
+    justify-content: space-evenly;
+    text-decoration: none;
+    color: white;
+}

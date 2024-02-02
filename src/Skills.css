@@ -1,0 +1,22 @@
+div {
+    text-align: center;
+    color: white;
+}
+
+.skills-display {
+    display: inline-flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  .skills-display > div {
+    flex: 0 0 calc(25% - 10px);
+    margin: 5px;
+  }
+
+
+.skill-icon {
+    height: 100px;
+    width: 100px;
+    margin: 10px;
+}
