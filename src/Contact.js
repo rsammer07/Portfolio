@@ -27,19 +27,19 @@ const Contact = () => {
 
 
     return (
-        <div>
-            <h1>Connect with me!</h1>
-            <div className='contact'>
-                {links.map((link) => (
-                    <div className='contact-link'>
-                        <a href={link.url} target="_blank" rel="noopener noreferrer">
-                            <img className="site-logo" src={link.image} alt={link.name} />
-                        </a>
-                        <p>{link.name}</p>
-                    </div>
-                ))}
-            </div>
+ <div>
+<h1>Connect with me!</h1>
+<div className='contact'>
+    {links.map((link) => (
+        <div className='contact-link'>
+            <a href={link.url} target="_blank" rel="noopener noreferrer">
+                <img className="site-logo" src={link.image} alt={link.name} />
+            </a>
+            <p>{link.name}</p>
         </div>
+    ))}
+</div>
+</div> 
     )
 }
 

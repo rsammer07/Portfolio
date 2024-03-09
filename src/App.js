@@ -4,6 +4,8 @@ import Projects from './Projects';
 import Skills from './Skills';
 import Intro from './Intro';
 import Contact from './Contact';
+import Collapsible from './Dropdown';
+import BasicButtonExample from './DropDownButton';
 
 function App() {
   let routes = (
@@ -16,7 +18,6 @@ function App() {
   )
 
 
-
   return (
     <div className="App">
       <header>
@@ -24,7 +25,9 @@ function App() {
         <nav className="navbar">
         <NavLink activeclassname="active" to="/projects"><h3 className="text-link">Projects</h3></NavLink>
         <NavLink activeclassname="active" to="/skills"><h3 className="text-link">Skills</h3></NavLink>
-        <NavLink activeclassname="active" to="/contact"><h3 className="text-link">Contact</h3></NavLink>
+        <div className='collapsible'>
+          <BasicButtonExample />
+        </div>
         </nav>
       </header>
       <main>
