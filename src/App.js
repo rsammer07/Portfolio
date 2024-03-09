@@ -1,10 +1,8 @@
-import { NavLink, Link, Route, Routes, Navigate } from 'react-router-dom';
+import { NavLink, Link, Route, Routes } from 'react-router-dom';
 import './App.css';
 import Projects from './Projects';
 import Skills from './Skills';
 import Intro from './Intro';
-import Contact from './Contact';
-import Collapsible from './Dropdown';
 import BasicButtonExample from './DropDownButton';
 
 function App() {
@@ -13,7 +11,6 @@ function App() {
     <Route path='/' element={< Intro />}/>
     <Route path="/projects" element={<Projects />}/>
     <Route path="/skills" element={<Skills />}/>
-    <Route path="/contact" element={<Contact />}/>
     </Routes>
   )
 

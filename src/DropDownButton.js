@@ -31,6 +31,7 @@ function BasicButtonExample() {
       {links.map((link, index) => (
         <Dropdown.Item key={index} href={link.url} target="_blank">
           <img className='site-logo' src={link.image} alt={link.name} style={{ width: '20px', marginRight: '5px' }} />
+          {link.name}
         </Dropdown.Item>
       ))}
     </DropdownButton>
