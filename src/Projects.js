@@ -10,7 +10,7 @@ const Projects = () => {
             githubFront: "https://github.com/rsammer07/Star-Wars-Trivia",
             githubBack: false,
             deployed: "https://rsammer07.github.io/Star-Wars-Trivia/",
-            description: 'Stars Wars Trivia Website! - Project Description could go here? i.e an application that using XYZ technologies to do ABC'
+            description: 'Stars Wars Trivia Website! - Used HTML CSS and JavaScript to make a basic trivia game.'
         },
         {
             name: "Movie-Planner",
@@ -21,7 +21,7 @@ const Projects = () => {
             githubFront: "https://github.com/rsammer07/Project-2-Movie-Planner",
             githubBack: false,
             deployed: "https://project-2-movie-planner-cbd864d43518.herokuapp.com/profile",
-            description: 'Movie Planner Webapp ! Project Description could go here? i.e an application that using XYZ technologies to do ABC'
+            description: 'Movie Planner Webapp! Used Express, MongoDB, EJS, JavaScript and CSS to make a movie watchlist app that allows users to add movies to their database and remove them from their watchlists.'
         },
         {
             name: "Sharmer News",
@@ -32,7 +32,7 @@ const Projects = () => {
             githubFront: "https://github.com/rsammer07/Sharmer-News",
             githubBack: false,
             deployed: false,
-            description: 'Sharmer News Project Description could go here? i.e an application that using XYZ technologies to do ABC'
+            description: 'Sharmer News, A React one page application, pulled data from third party APIs and displayed information sorted on the page.'
         },
         {
             name: "What Should I Play?",
@@ -43,7 +43,7 @@ const Projects = () => {
             githubFront: "https://github.com/rsammer07/What-should-I-Play-front-end",
             githubBack: "https://github.com/rsammer07/What-should-I-Play",
             deployed: false,
-            description: 'Video Game picker application : Project Description could go here? i.e an application that using XYZ technologies to do ABC'
+            description: 'What Should I Play? A React one page application in which a user can create an account with JWT web token. User can then create a database of games that they have and hit the randomize button to get a random game to play.'
         }
     ];
     
