@@ -2,7 +2,7 @@ import "./App.css";
 
 const Intro = () => {
     return (
-        <div>
+        <div class="homepage">
             <div className='introduction'>
                 <div className='title'>
                     <h1>Ryan Sammer</h1>
